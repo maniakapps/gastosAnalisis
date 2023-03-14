@@ -1,0 +1,7 @@
+<h1>Agregar gasto</h1>
+<form id="nuevo-gasto-form" method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Agregar</button>
+</form>
+

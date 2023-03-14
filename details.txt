@@ -1,0 +1,17 @@
+Creamos un proyecto de Django llamado gastosAnalisis.
+Creamos una aplicacion de Django llamada manejogastos.
+Definimos un modelo CuentaBancaria en models.py.
+Definimos un modelo Gasto en models.py.
+Creamos un formulario NuevaCuentaForm para agregar cuentas bancarias en forms.py.
+Creamos una vista agregar_cuenta para agregar cuentas bancarias en views.py.
+Creamos una vista lista_cuentas para listar cuentas bancarias en views.py.
+Creamos una plantilla agregarcuenta.html para agregar cuentas bancarias en templates/manejogastos.
+Creamos una plantilla listacuentas.html para listar cuentas bancarias en templates/manejogastos.
+Actualizamos urls.py para agregar las vistas agregar_cuenta y lista_cuentas.
+Creamos un formulario NuevoGastoForm para agregar gastos en forms.py.
+Creamos una vista agregar_gasto para agregar gastos en views.py.
+Creamos una vista lista_gastos para listar gastos en views.py.
+Creamos una plantilla agregargasto.html para agregar gastos en templates/manejogastos.
+Creamos una plantilla listagastos.html para listar gastos en templates/manejogastos.
+Actualizamos urls.py para agregar las vistas agregar_gasto y lista_gastos.
+Agregamos un widget de calendario al campo fecha en el formulario NuevoGastoForm.

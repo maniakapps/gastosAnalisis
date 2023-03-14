@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Lista de cuentas bancarias</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre del banco</th>
+        <th>Número de cuenta</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for cuenta in cuentas %}
+        <tr>
+          <td>{{ cuenta.id }}</td>
+          <td>{{ cuenta.nombre_banco }}</td>
+          <td>{{ cuenta.numero_cuenta }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="3">No hay cuentas bancarias registradas.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
